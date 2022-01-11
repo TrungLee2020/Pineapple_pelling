@@ -3,10 +3,9 @@ from imutils import perspective
 from imutils import contours
 import numpy as np
 import argparse
-import imutils
 import cv2
 
-ref_width = 10  # in mm
+# ref_width = 20  # in mm
 
 
 def read_and_preproces(filename, canny_low= 50, canny_high = 100, blur_kernel=9, d_e_kernel=3):

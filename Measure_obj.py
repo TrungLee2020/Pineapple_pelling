@@ -3,7 +3,7 @@ import utils
 
 ###################################
 webcam = True
-path = 'data/2.jpg'
+path = 'data/1.jpg'
 cap = cv2.VideoCapture(0)
 cap.set(10, 160)
 cap.set(3, 1920)

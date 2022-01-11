@@ -1,7 +1,5 @@
 opencv-python
 numpy
-pandas
-matplotlib
 scipy
 imutils
-scikit-image
+flask
